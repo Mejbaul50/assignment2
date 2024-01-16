@@ -5,41 +5,49 @@
     font-family: 'Mulish', sans-serif;
 }
 /* nav section */
+
 .nav-container {
-    max-width: 1200px;
+    max-width: 1180px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 .nav-container h2 {
-    display: flex;
-    gap: 17px;
-    margin: 50px 0;
+
     align-items: center;
     color: #131318;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     font-weight: 800;
 }
+
 .nav-container span {
     color: #FF5400;
 }
 
-.nav-container img {
-    width: 48px;
-    height: 56px;
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin: 50px 0;
 }
+
+.nav-title img {
+    width: 48px;
+    height: 56.008px;
+}
+
 .nav-section {
     display: flex;
     list-style: none;
     gap: 44px;
-    margin: 65px 0px;
+    margin: 63px 0px;
 }
 
 .nav-container a {
     text-decoration: none;
     color: #424247;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 
@@ -47,6 +55,7 @@ ul span {
     color: #FF5400;
     font-weight: 700;
 }
+
 
 /* start banner section */
 
@@ -111,7 +120,6 @@ ul span {
 .whereGo>input,
 .banner-select>select {
     width: 174px;
-    /* height: 52px; */
     border-radius: 8px;
     background: #FFF;
     color: rgba(19, 19, 24, 0.50);
@@ -421,6 +429,7 @@ line-height: 26px;
     flex-shrink: 0;
     background-image: url('Images/Group\ 40089.png');
 }
+
 /* news letter section */
 .newsletter-container {
     max-width: 1170px;
@@ -608,16 +617,6 @@ line-height: 26px;
 
 
 
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width:600.1px) and (max-width:2560px) {
     .BIGhide {
         display: none;
@@ -646,10 +645,8 @@ line-height: 26px;
     }
 
     .all-from {
-        /* display: flex   ; */
         display: flex;
         padding: 16px;
-        /* align-items: flex-start; */
         gap: 24px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.30);
@@ -658,7 +655,6 @@ line-height: 26px;
     .whereGo>input,
     .banner-select>select {
         width: 174px;
-        /* height: 52px; */
         border-radius: 8px;
         background: #FFF;
         color: rgba(19, 19, 24, 0.50);
@@ -677,6 +673,16 @@ line-height: 26px;
 
     
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

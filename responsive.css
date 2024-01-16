@@ -33,12 +33,14 @@
         box-shadow: 2px 2px 2px;
         padding: 10px;
         background-color: white;
+    
     }
 
     .mobile-nav-section li {
         list-style: none;
         padding: 5px;
     }
+
 
     /* banner section */
 
@@ -182,7 +184,7 @@
         background-size: cover;
         border-radius: 16px;
     }
-
+/* choose section */
     .choose-section {
         max-width: 550px;
         margin: 20px auto;
@@ -219,17 +221,34 @@
     .choose-main p {
         font-size: 14px;
     }
+    /* newsletter section */
+    .newsletter-container {
+        flex-direction: column;
+    }
 
+    .newsletter-from {
+        width: 470px;
+        margin: 0 auto;
+    }
 
+    .newsletter-img {
+        width: 470px;
+        margin: 20px auto;
+        right: 7%;
+        position: relative;
+    }
 
+    .newsletter-img img {
+        width: 550px;
+        object-fit: cover;
+    }
+    .newsletter-img .top{
+        position: absolute;
+        top: 51%;
+        left: 47%;
+    }
 
-
-
-
-
-
-
-     /* footer section */
+/* footer section */
     
      .logo img {
         width: 100%;
@@ -270,3 +289,5 @@
 
 
 }
+
+
