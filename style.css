@@ -1,0 +1,151 @@
+/* common style section */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+/* nav section */
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container h2 {
+    display: flex;
+    gap: 17px;
+    margin: 50px 0;
+    align-items: center;
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.nav-container span {
+    color: #FF5400;
+}
+.nav-container img {
+    width: 48px;
+    height: 56px;
+}
+.nav-section {
+    display: flex;
+    list-style: none;
+    gap: 44px;
+    margin: 65px 0px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+ul span {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+/* start banner section */
+
+.banner-container {
+    max-width: 1170px;
+    height: 500px;
+    background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.banner-shado {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    max-width: 1170px;
+    height: 500px;
+}
+
+.banner-description {
+    width: 676px;
+    height: 156px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 106px;
+}
+
+.banner-description h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-description p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* banner form section */
+.banner-from {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.all-from {
+    /* display: flex   ; */
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.whereGo>input,
+.banner-select>select {
+    width: 174px;
+    /* height: 52px; */
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+    border: none;
+}
+
+.whereGo input::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+.primary-btn-1 {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-btn-1 img {
+    width: 24px;
+    height: 24px;
+}
+
+.primary-btn-1 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
